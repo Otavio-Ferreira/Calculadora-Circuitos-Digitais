@@ -53,7 +53,7 @@ Os testes foram realizados no Logisim, com todas as combinações de entradas (0
 4. **Comparação**:
    - Operandos: 1 e 1
    - Resultado esperado: 1 = 1
-   - Resultado obtido: pino "Maior" aceso
+   - Resultado obtido: pino "NUM1 = NUM2" aceso
 
    ![Teste de Comparação](imagens/comparador.png)
 
