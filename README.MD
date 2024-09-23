@@ -7,7 +7,7 @@ Este projeto consiste na implementação de uma calculadora que realiza operaç�
 ### Funcionamento
 O circuito recebe dois números de entrada em formato hexadecimal, que são inseridos manualmente através de dois displays de 7 segmentos, o usuário deve utlizar os botões parar ligar cada segmento do display até formar o número desejado. Para escolher a operação, o usuário irá utilizar uma espécie de "seletor" feito com dois botões, para isso deve digitar um número de 0 à 2 em binário, onde  0 equivale a soma, 1 à subtração e 2 equivale a multiplicação. O resultado é exibido em um display de 7 segmentos, também em formato hexadecimal, caso o resultado seja negativo também será exibido em outro display de 7 segmentos o sinal negativo. Caso o resultado ultrpasse os limites do display de 7 segmentos, será impresso a palavra "erro" em um conjunto de outros 4 displays de 7 segmentos. Quanto ao comparador, há 3 pinos de testes, onde cada um recebe uma especificação (num1 < num2; num1 = num2; num1 > num2), ambos por padrão o valor 0, ao inserir os números, a comparação correta irá imprimir 1 no pino da especificação correta.  
 
-![Visão geral do circuito](images/circuito.png)
+![Visão geral do circuito](imagens/circuito.png)
 
 ## 2. Diagramas-
 
@@ -19,7 +19,7 @@ O circuito foi dividido em quatro módulos principais:
 3. **Calculador**: Um módulo que permitem realizar o processamento das operações e com um seletor para escolher qual operação visualizar.
 4. **Conversor da saída**: Um módulo para converter a saída de hexadecimal para o display de 7 segmentos.
 
-![Diagrama Geral](images/diagrama.png)
+![Diagrama Geral](imagens/diagrama.png)
 
 ## 3. Testes
 
@@ -34,28 +34,28 @@ Os testes foram realizados no Logisim, com todas as combinações de entradas (0
    - Resultado esperado: 2
    - Resultado obtido: 2 (hexadecimal)
    
-   ![Teste de Soma](images/soma.png)
+   ![Teste de Soma](imagens/soma.png)
 
 2. **Subtração**:
    - Operandos: 1 e 1
    - Resultado esperado: 0
    - Resultado obtido: 0 (hexadecimal)
 
-   ![Teste de Subtração](images/subtracao.png)
+   ![Teste de Subtração](imagens/subtracao.png)
 
 3. **Multiplicação**:
    - Operandos: 1 e 1
    - Resultado esperado: 1
    - Resultado obtido: 1 (hexadecimal)
 
-   ![Teste de Multiplicação](images/multiplicacao.png)
+   ![Teste de Multiplicação](imagens/multiplicacao.png)
 
 4. **Comparação**:
    - Operandos: 1 e 1
    - Resultado esperado: 1 = 1
    - Resultado obtido: pino "Maior" aceso
 
-   ![Teste de Comparação](images/comparador.png)
+   ![Teste de Comparação](imagens/comparador.png)
 
 ### Resultados Finais
 
