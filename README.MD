@@ -9,7 +9,7 @@ O circuito recebe dois números de entrada em formato hexadecimal, que são inse
 
 ![Visão geral do circuito](imagens/circuito.png)
 
-## 2. Diagramas-
+## 2. Diagramas
 
 ### Diagrama Geral
 
