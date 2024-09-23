@@ -21,6 +21,14 @@ O circuito foi dividido em quatro módulos principais:
 
 ![Diagrama Geral](imagens/diagrama.png)
 
+### Diagrama da soma
+![Diagrama Geral](imagens/diagrama_soma.png)
+
+Utilizando quatro circuitos de soma de 1 bit, é possível realizar a operação completa de soma entre dois números binários de 4 bits cada um. os bits individuais de cada número são somados entre si e com o "vai um" que foi resultado da soma dos bits anteriores de cada número. Assim, cada circuito de soma de 1 bit possui trẽs entradas (Um bit de cada número binário que será somado e o "vai um" da operação anterior) e duas saídas (o resultado da soma dos dois bits e o "vai um" que será adicionado à próxima operação).
+
+![Diagrama Geral](imagens/somador.png)
+
+
 ## 3. Testes
 
 ### Metodologia
